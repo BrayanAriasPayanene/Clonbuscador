@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #0b717e;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main{
+    background-color: greenyellow;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#iteams-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    list-style: none;
+    gap: 15px;
+  
+}
+
+#principal-logo{
+    height: 250px;
+    width: 250px;
+}
+
+section{
+    background-color: red;
+
+}
+
+search-input{
+    width: 350px;
+    height: 25px;
+    border-radius: 46px 46px 46px 46px;
+    padding-left: 15px;
+    box-shadow: 10px 9px 43px 4px rgba(0, 0, 0,0.75);
+    -webkit-box-shadow: 10px 9px 43px 4px rgba(0, 0, 0,0.75);
+    -moz-box-shadow: 10px 9px 43px 4px rgba(0, 0, 0,0.75);
+}
+#princiapl{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+
+
+#botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+#clickAqui{
+    display: flex;
+    gap: 5px;
+}
+
+
+
+footer{
+    background-color: black;
+    height: 20%;
+}
+
+
